@@ -1186,6 +1186,10 @@
   margin-left: -15px;
 }
 
+.div-taxas{
+  padding-top: 50px;
+  padding-left: 100px;
+}
 @media only screen and (max-width: 766px) {
   .lojas-texto {
     text-align: center;
@@ -1204,6 +1208,13 @@
     justify-content: center;
     text-align: center;
   }
+  .div-taxas{
+    text-align: center;
+    padding-top: 0;
+    padding-left: 0;
+    margin: 10px 40px;
+  }
 }
+
 
 
