@@ -1179,6 +1179,7 @@
 
 .lojas-texto{
   padding: 0;
+  margin-left: 70px;
 }
 
 .row-footer{
@@ -1190,9 +1191,14 @@
   padding-top: 50px;
   padding-left: 100px;
 }
+
+.p-lojinha{
+  max-width: 300px; color: #fff; font-weight: 100; line-height: 1.6; border-radius: 0;
+}
 @media only screen and (max-width: 766px) {
   .lojas-texto {
     text-align: center;
+    margin-left: 0;
   }
   .row-lojas{
     display: flex;
@@ -1213,6 +1219,9 @@
     padding-top: 0;
     padding-left: 0;
     margin: 10px 40px;
+  }
+  .p-lojinha{
+    max-width: 100%;
   }
 }
 
